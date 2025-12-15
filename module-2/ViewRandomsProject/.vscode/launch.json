@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run JavaFX",
+      "request": "launch",
+      "mainClass": "ViewRandomsApp",
+      "vmArgs": "--module-path \"${workspaceFolder}/lib/javafx-sdk-25/lib\" --add-modules javafx.controls -Dprism.order=d3d"
+    }
+  ]
+}
