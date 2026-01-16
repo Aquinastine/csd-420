@@ -3,8 +3,8 @@
     Module 2 View Randoms Application
     December 14, 2025
     
-This program "LuttrellDataFile.dat", and appends new
-data each time it is run.
+This program reads "LuttrellDataFile.dat", and displays its contents
+in a JavaFX window.
 
      */ 
 
@@ -26,8 +26,11 @@ public class ViewRandomsApp extends Application {
     @Override
     public void start(Stage stage) {
 
+/*      //This is commented out because it was not part of the assignment
+        Requirements, but it can be uncommented and the application will
+        automatically run the writer program.
         // Run writer first
-        LuttrellWriteData.writeRandomData(FILENAME);
+        LuttrellWriteData.writeRandomData(FILENAME); */
 
         // Set up TextArea to display file contents
         TextArea textArea = new TextArea();
