@@ -3,7 +3,7 @@
  * Word Collection Sorter
  * Displays words frm a file in alphabetical and reverse alphabetical 
  * order.
- * Date: June 12, 2024
+ * Date: January 25, 2025
  */
 
 import java.io.File;
